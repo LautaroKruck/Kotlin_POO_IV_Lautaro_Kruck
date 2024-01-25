@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f82b37-673d-4aaf-890b-b121358f8d95" name="Changes" comment="" />
+    <list default="true" id="84f82b37-673d-4aaf-890b-b121358f8d95" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cafeteras y tazas/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cafeteras y tazas/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cafeteras y tazas/Practica_POO_clase_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cafeteras y tazas/Practica_POO_clase_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cafeteras y tazas/src/main/kotlin/Cafetera.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Cafeteras y tazas/src/main/kotlin/Cafetera.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cafeteras y tazas/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Cafeteras y tazas/src/main/kotlin/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +19,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2bPCYjtgpFukHZZwUvSXNKg7iGf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,14 +35,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/usuariot/ReposGit/LautaroKruck---Cafeteras-y-tazas"
+    "last_opened_file_path": "C:/Users/lauta/OneDrive/Documentos/REPOSITORIOS/1_DAW_B_KOTLIN/Kotlin POO I",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
         <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
       </set>
     </attachedChunks>
   </component>

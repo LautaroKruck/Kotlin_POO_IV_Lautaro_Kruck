@@ -46,13 +46,25 @@ fun main() {
 
     //TODO: Crear 3 cafeteras en la Sala, Cocina y Oficina
 
+    val cafetera1 = Cafetera("Sala" , 1000 , 0)
+    val cafetera2 = Cafetera("Cocina" , 750 , 750)
+    val cafetera3 = Cafetera("Oficina" , 500 , 200)
 
     //TODO: Crear una lista de 20 tazas con capacidades aleatorias
 
-   
+    val tazas = List(20) { Taza(capacidad = (50..500).random()) }
+
     println("**********************************************")
+
     //TODO: Mostrar por pantalla el contenido de las 3 cafeteras y las tazas.
 
+    println("Cafetera 1: $cafetera1")
+    println("Cafetera 2: $cafetera2")
+    println("Cafetera 3: $cafetera3")
+
+    tazas.forEachIndexed { index, taza ->
+        println("Taza ${index + 1}: capacidad = ${taza.capacidad} c.c.")
+    }
     
     println("**********************************************")
     println("Llenar la cafetera1 de café...")
@@ -62,28 +74,51 @@ fun main() {
 
     //TODO: Llenar la cafetera1 de café.
 
+    cafetera1.llenar()
 
     //TODO: Vaciar la cafetera2.
 
+    cafetera2.vaciar()
 
     //TODO: Agregar café a la cafetera2 a la mitad de su capacidad.
 
 
     //TODO: Agregar 400 c.c. de café a la cafereta3
 
+    cafetera3.agregarCafe(400)
 
     println("**********************************************")
+
     //TODO: Mostrar por pantalla el contenido de las 3 cafeteras
 
+    println("Cafetera 1: $cafetera1")
+    println("Cafetera 2: $cafetera2")
+    println("Cafetera 3: $cafetera3")
 
     println("**********************************************")
     println("Servir café en las tazas...")
 
     //TODO: Servir café en las tazas... siempre que haya café en la cafetera y en el orden cafetera1, cafetera2 y cafetera3.
 
+    for (taza in tazas) {
+        if (cafetera1.cantidad > 0) {
+            cafetera1.servirTaza(taza)
+        } else if (cafetera2.cantidad > 0) {
+            cafetera2.servirTaza(taza)
+        } else if (cafetera3.cantidad > 0) {
+            cafetera3.servirTaza(taza)
+        }
+    }
 
     println("**********************************************")
+
     //TODO: Mostrar por pantalla el contenido de las 3 cafeteras y las tazas.
 
+    println("Cafetera 1: $cafetera1")
+    println("Cafetera 2: $cafetera2")
+    println("Cafetera 3: $cafetera3")
 
+    tazas.forEachIndexed { index, taza ->
+        println("Taza ${index + 1}: capacidad = ${taza.capacidad} c.c.")
+    }
 }
